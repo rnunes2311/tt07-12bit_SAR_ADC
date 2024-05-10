@@ -1,9 +1,9 @@
 # Tiny Tapeout project information
 project:
-  title:        ""      # Project title
-  author:       ""      # Your name
+  title:        "12 bit SAR ADC"      # Project title
+  author:       "Ricardo Nunes"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  description:  "A 12 bit differential (11 bit single-ended) SAR ADC"      # One line description of what your project does
   language:     "Analog" # other examples include Verilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -11,10 +11,10 @@ project:
   tiles: "1x2"          # Valid values: 1x1 (digital only), 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
 
   # How many analog pins does your project use?
-  analog_pins: 2        # Valid values: 0 to 6
+  analog_pins: 5        # Valid values: 0 to 6
 
   # Your top module name must start with "tt_um_". Make it unique by including your github username:
-  top_module:  "tt_um_example"
+  top_module:  "tt_um_rnunes2311_12bit_sar_adc"
 
   # List your project's source files here. Source files must be in ./src and you must list each source file separately, one per line:
   source_files:        
@@ -23,9 +23,9 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
+  ui[0]: "start"
+  ui[1]: "en_offset_cal"
+  ui[2]: "single_ended"
   ui[3]: ""
   ui[4]: ""
   ui[5]: ""
@@ -33,13 +33,13 @@ pinout:
   ui[7]: ""
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
+  uo[0]: "data[5]"
+  uo[1]: "data[4]"
+  uo[2]: "data[3]"
+  uo[3]: "data[2]"
+  uo[4]: "data[1]"
+  uo[5]: "data[0]"
+  uo[6]: "clk_data"
   uo[7]: ""
 
   # Bidirectional pins
@@ -53,12 +53,11 @@ pinout:
   uio[7]: ""
 
   # Analog pins - make sure to also set "analog_pins" above, else the pins won't be connected
-  ua[0]: ""
-  ua[1]: ""
-  ua[2]: ""
-  ua[3]: ""
-  ua[4]: ""
-  ua[5]: ""
+  ua[0]: "vcm"
+  ua[1]: "vref"
+  ua[2]: "vref_gnd"
+  ua[3]: "vin_n"
+  ua[4]: "vin_p"
 
 # Do not change!
 yaml_version: 6
