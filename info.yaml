@@ -58,6 +58,7 @@ pinout:
   ua[2]: "vref_gnd"
   ua[3]: "vin_n"
   ua[4]: "vin_p"
+  ua[5]: ""
 
 # Do not change!
 yaml_version: 6
