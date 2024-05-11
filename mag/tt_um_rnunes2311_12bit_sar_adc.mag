@@ -500,7 +500,7 @@ rect 26866 0 27046 690
 rect 30853 200 31033 820
 rect 30853 20 31462 200
 rect 31282 0 31462 20
-use SAR_ADC_12bit/layout/SAR_ADC_12bit  SAR_ADC_12bit_flat_0 ~/Desktop/tt07-12bit_SAR_ADC/mag/SAR_ADC_12bit/layout
+use SAR_ADC_12bit/layout/SAR_ADC_12bit  SAR_ADC_12bit_0 SAR_ADC_12bit/layout
 timestamp 1715420247
 transform 1 0 5968 0 1 -4142
 box -5320 4712 25607 48195
