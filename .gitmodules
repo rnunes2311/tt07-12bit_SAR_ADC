@@ -1,0 +1,3 @@
+[submodule "mag/SAR_ADC_12bit"]
+	path = mag/SAR_ADC_12bit
+	url = git@github.com:rnunes2311/SAR_ADC_12bit.git
