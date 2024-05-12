@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1715436928
+timestamp 1715537654
 << metal2 >>
 rect 2970 44685 3030 44695
 rect 2970 44615 3030 44625
@@ -293,23 +293,40 @@ rect 13720 370 13790 440
 rect 18036 240 18106 310
 rect 18136 240 18206 310
 << metal4 >>
-rect 798 44831 858 45152
-rect 1534 44831 1594 45152
-rect 2270 44831 2330 45152
-rect 3006 44831 3066 45152
-rect 3742 44831 3802 45152
-rect 4478 44831 4538 45152
-rect 5214 44831 5274 45152
-rect 5950 44831 6010 45152
-rect 6686 44831 6746 45152
-rect 7422 44831 7482 45152
-rect 8158 44831 8218 45152
-rect 8894 44831 8954 45152
-rect 9630 44831 9690 45152
-rect 10366 44831 10426 45152
-rect 11102 44831 11162 45152
-rect 11838 44831 11898 45152
-rect 12574 44831 12634 45152
+rect 798 44933 858 45152
+rect 1534 44940 1594 45152
+rect 2270 44940 2330 45152
+rect 3006 44940 3066 45152
+rect 3742 44940 3802 45152
+rect 4478 44940 4538 45152
+rect 5214 44940 5274 45152
+rect 5950 44940 6010 45152
+rect 6686 44940 6746 45152
+rect 7422 44940 7482 45152
+rect 8158 44940 8218 45152
+rect 8894 44940 8954 45152
+rect 9630 44940 9690 45152
+rect 10366 44940 10426 45152
+rect 11102 44940 11162 45152
+rect 11838 44940 11898 45152
+rect 12574 44940 12634 45152
+rect 798 44831 858 44856
+rect 1534 44831 1594 44854
+rect 2270 44831 2330 44854
+rect 3006 44831 3066 44854
+rect 3742 44831 3802 44854
+rect 4478 44831 4538 44854
+rect 5214 44831 5274 44854
+rect 5950 44831 6010 44854
+rect 6686 44831 6746 44854
+rect 7422 44831 7482 44854
+rect 8158 44831 8218 44854
+rect 8894 44831 8954 44854
+rect 9630 44831 9690 44854
+rect 10366 44831 10426 44854
+rect 11102 44831 11162 44854
+rect 11838 44831 11898 44854
+rect 12574 44831 12634 44854
 rect 789 44830 871 44831
 rect 789 44750 790 44830
 rect 870 44750 871 44830
@@ -510,10 +527,83 @@ rect 26866 0 27046 690
 rect 30853 200 31033 820
 rect 30853 20 31462 200
 rect 31282 0 31462 20
+<< hvnwell >>
+rect 7543 30803 14921 32042
+rect 8455 29868 14921 30803
+rect 17302 30803 24680 32042
+rect 17302 29868 23768 30803
 use SAR_ADC_12bit/layout/SAR_ADC_12bit  SAR_ADC_12bit_0 SAR_ADC_12bit/layout
-timestamp 1715434624
+timestamp 1715537654
 transform 1 0 5968 0 1 -4142
 box -5320 4712 25607 48195
+use sky130_fd_pr__res_generic_m4_8MAHUG  sky130_fd_pr__res_generic_m4_8MAHUG_0
+timestamp 1715523196
+transform 1 0 8188 0 1 44894
+box -30 -87 30 87
+use sky130_fd_pr__res_generic_m4_8MAHUG  sky130_fd_pr__res_generic_m4_8MAHUG_1
+timestamp 1715523196
+transform 1 0 828 0 1 44894
+box -30 -87 30 87
+use sky130_fd_pr__res_generic_m4_8MAHUG  sky130_fd_pr__res_generic_m4_8MAHUG_2
+timestamp 1715523196
+transform 1 0 1564 0 1 44894
+box -30 -87 30 87
+use sky130_fd_pr__res_generic_m4_8MAHUG  sky130_fd_pr__res_generic_m4_8MAHUG_3
+timestamp 1715523196
+transform 1 0 2300 0 1 44894
+box -30 -87 30 87
+use sky130_fd_pr__res_generic_m4_8MAHUG  sky130_fd_pr__res_generic_m4_8MAHUG_4
+timestamp 1715523196
+transform 1 0 3036 0 1 44894
+box -30 -87 30 87
+use sky130_fd_pr__res_generic_m4_8MAHUG  sky130_fd_pr__res_generic_m4_8MAHUG_5
+timestamp 1715523196
+transform 1 0 3772 0 1 44894
+box -30 -87 30 87
+use sky130_fd_pr__res_generic_m4_8MAHUG  sky130_fd_pr__res_generic_m4_8MAHUG_6
+timestamp 1715523196
+transform 1 0 4508 0 1 44894
+box -30 -87 30 87
+use sky130_fd_pr__res_generic_m4_8MAHUG  sky130_fd_pr__res_generic_m4_8MAHUG_7
+timestamp 1715523196
+transform 1 0 5244 0 1 44894
+box -30 -87 30 87
+use sky130_fd_pr__res_generic_m4_8MAHUG  sky130_fd_pr__res_generic_m4_8MAHUG_8
+timestamp 1715523196
+transform 1 0 5980 0 1 44894
+box -30 -87 30 87
+use sky130_fd_pr__res_generic_m4_8MAHUG  sky130_fd_pr__res_generic_m4_8MAHUG_9
+timestamp 1715523196
+transform 1 0 6716 0 1 44894
+box -30 -87 30 87
+use sky130_fd_pr__res_generic_m4_8MAHUG  sky130_fd_pr__res_generic_m4_8MAHUG_10
+timestamp 1715523196
+transform 1 0 7452 0 1 44894
+box -30 -87 30 87
+use sky130_fd_pr__res_generic_m4_8MAHUG  sky130_fd_pr__res_generic_m4_8MAHUG_11
+timestamp 1715523196
+transform 1 0 12604 0 1 44894
+box -30 -87 30 87
+use sky130_fd_pr__res_generic_m4_8MAHUG  sky130_fd_pr__res_generic_m4_8MAHUG_12
+timestamp 1715523196
+transform 1 0 8924 0 1 44894
+box -30 -87 30 87
+use sky130_fd_pr__res_generic_m4_8MAHUG  sky130_fd_pr__res_generic_m4_8MAHUG_13
+timestamp 1715523196
+transform 1 0 9660 0 1 44894
+box -30 -87 30 87
+use sky130_fd_pr__res_generic_m4_8MAHUG  sky130_fd_pr__res_generic_m4_8MAHUG_14
+timestamp 1715523196
+transform 1 0 10396 0 1 44894
+box -30 -87 30 87
+use sky130_fd_pr__res_generic_m4_8MAHUG  sky130_fd_pr__res_generic_m4_8MAHUG_15
+timestamp 1715523196
+transform 1 0 11132 0 1 44894
+box -30 -87 30 87
+use sky130_fd_pr__res_generic_m4_8MAHUG  sky130_fd_pr__res_generic_m4_8MAHUG_16
+timestamp 1715523196
+transform 1 0 11868 0 1 44894
+box -30 -87 30 87
 << labels >>
 flabel metal4 s 30974 44952 31034 45152 0 FreeSans 480 90 0 0 clk
 port 0 nsew signal input
