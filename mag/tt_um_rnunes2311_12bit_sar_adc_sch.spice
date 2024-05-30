@@ -222,7 +222,7 @@ XM2 VGATE EN_Z Vtop Vtop sky130_fd_pr__pfet_01v8 L=0.15 W=16 nf=4 m=1
 XM3 VGATE VDD Vd VSS sky130_fd_pr__nfet_05v0_nvt L=0.9 W=8 nf=2 m=1
 XM4 Vd EN_Z VSS VSS sky130_fd_pr__nfet_01v8 L=0.15 W=8 nf=2 m=1
 XM5 Vbottom EN_Z VSS VSS sky130_fd_pr__nfet_01v8 L=0.15 W=8 nf=2 m=1
-XM6 Vtop Vbottom Vtop Vtop sky130_fd_pr__pfet_01v8 L=15 W=15 nf=4 m=1
+XM6 Vtop Vbottom Vtop Vtop sky130_fd_pr__pfet_01v8 L=16.6 W=13.6 nf=4 m=1
 x1 EN VSS VSS VDD VDD EN_Z sky130_fd_sc_hd__inv_4
 XM8 VIN VGATE Vbottom VSS sky130_fd_pr__nfet_01v8 L=0.15 W=8 nf=2 m=1
 XM7 VGATE VDD VGATE_1V8 VSS sky130_fd_pr__nfet_05v0_nvt L=0.9 W=4 nf=1 m=1
